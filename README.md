@@ -35,7 +35,7 @@ echo ""
 For Now installing `GnF` Hoping that you already has all the dependencies use the following commands
 ```bash
 git clone https://github.com/darkyboys/gnf.git
-cf gnf
+cd gnf
 magma
 ```
 
