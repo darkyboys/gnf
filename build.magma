@@ -1,0 +1,24 @@
+# This is the build configuration of the magma build system for building the GNF Project;
+
+clear();
+
+main (`src/main.cc`);
+out (`gnf`);
+bin (`bin`);
+
+compiler (`g++`);
+pkg_config (`--cflags --libs gtk+-3.0 webkit2gtk-4.0`);
+
+make();
+
+main (`src/lib/gnfc/gnfc.cc`);
+out (`gnfc`);
+
+make ();
+
+system ("echo 'gnf was successfully builded inside the bin directory.'");
+system ("echo ''");
+
+# These iso files were used to test and they were successfully written to the flash drive
+# /home/gtg/Downloads/iso/archlinux-2024.11.01-x86_64.iso
+# /home/gtg/Downloads/iso/alpine-standard-3.21.2-x86_64.iso
