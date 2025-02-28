@@ -9,7 +9,7 @@ Follow the following guidelines
  - If Creating New Files Then The 'README.md' File Must Contain the Information About Files (A Crystal Clear Information Needed)
  - Create A File 'saves.md'
  - Define 'saves.md' for what you have done from every line of code you have written.
- - Only Use C++ and it's STL.
+ - Only Use C++ and it's STL or The Included Dependencies.
  - Make a Pull Request & Wait.
 
 # ❌What-Not-To-DO
